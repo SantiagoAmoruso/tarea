@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Wavefont:wght@4..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    text-align: center;
+    gap: 0.5em;
+    margin: 30px;
+}
+:root {
+    --color-primario: #000000;
+    --color-secundario: #e9c46a;
+    --color-terciario: #0f0d0b;
+    --color-fondo: #f0f0f0;
+    --color-texto: #333;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+img {
+    max-width: 550px;
+    height: 550px;
+}

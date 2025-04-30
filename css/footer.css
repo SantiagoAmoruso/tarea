@@ -1,0 +1,30 @@
+footer {
+    background-color: var(--color-terciario);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    margin: 100px;
+}
+
+footer a:hover {
+    color: var(--color-secundario);
+    margin: 100px;
+}
+
+.red{
+    color: rgb(219, 3, 154);
+    font-size: 20px;
+}
+.green{
+    color: green;
+    font-size: 20px;
+}
+.blue{
+    color: blue;
+    font-size: 20px;
+}

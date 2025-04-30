@@ -1,0 +1,43 @@
+  .main{
+    background-color: #111;
+    color: white;
+    padding: 40px;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 60%;
+
+    text-align: center;
+
+  }
+  
+  .card-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .card-top img {
+    width: 80px;
+    height: 80px;
+    background: lightgray;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .card-image {
+    width:100%;
+    height: 200px;
+    background: white;
+    border: 2px solid #666;
+    margin-top: 10px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  

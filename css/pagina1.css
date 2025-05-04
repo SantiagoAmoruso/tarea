@@ -14,8 +14,8 @@
   }
   
   .article img {
-    width: 270px;
-    height: 270px;
+    width: 30%;
+    height: 30%;
     background: lightgray;
     margin-right: 20px;
     border-radius: 30px 30px 30px 30px;

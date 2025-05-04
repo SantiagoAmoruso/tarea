@@ -2,10 +2,6 @@
     padding: 9rem 3rem;
     text-align: center;
     width: 100%;
-    background: url("proy.jpg");
-    background-blend-mode: soft-light;
-    background-size: cover;
-    background-position: center;
     box-sizing: border-box; 
     
  }
@@ -31,12 +27,13 @@ header {
     align-items: center;
     border-radius: 100vh 100vh 100vh 100vh;
     cursor: pointer;
-    
+    mask-image: linear-gradient(
+   
+    );
 }
 .img:hover{
-    transition: 1s;
-    transform: scale(1.1);
-
+    transition: 3s;
+    transform: scale(0.9);
 }
 
 .nav-list {
@@ -79,11 +76,11 @@ header {
         color: rgb(255, 255, 255);
     }
     .nav {
-        opacity: 0;
+        opacity: 10%;
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
         gap: 1rem;
         position: absolute;
         top: 0;
@@ -91,9 +88,8 @@ header {
         bottom: 0;
         background-color: #000000;
         padding: 1rem;
-       
-       
         box-shadow:  0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        border-radius: 0px 0px 40px 40px;
     }
 
     .nav.visible {
